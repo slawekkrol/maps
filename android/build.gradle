@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.0'
+        classpath 'com.android.tools.build:gradle:8.1.0'
     }
 }
 
@@ -36,7 +36,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 31
+    namespace "com.mapbox.mapboxgl"
+    compileSdkVersion 34
     ndkVersion "20.1.5948944"
 
     defaultConfig {

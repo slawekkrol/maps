@@ -4,20 +4,17 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.0
-  location: ^4.0.0
-  path_provider: ^2.0.0
-  http: ^0.13.0
-  collection: ^1.0.0
-  device_info_plus: ^3.2.2
+  location: ^5.0.3
+  path_provider: ^2.1.0
+  http: ^1.1.0
+  collection: ^1.17.2
+  device_info_plus: ^9.0.3
 
 dependency_overrides:
   mapbox_gl_platform_interface:
@@ -26,9 +23,6 @@ dependency_overrides:
     path: ../mapbox_gl_web
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
   mapbox_gl:
     path: ../
 
